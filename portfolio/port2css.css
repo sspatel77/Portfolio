@@ -1,0 +1,168 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 60px;
+    list-style: none;   
+}
+ul{
+    position: relative;
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    padding-top: 19px; 
+}
+a{
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;   
+}
+.panel{
+    background-color: rgba(1, 4, 17, 0.884);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+}
+/* page1 */
+#page1{
+    display: flex;
+    width: 100%;
+    height: 470px; 
+}
+
+.left{
+    width: 50%;
+    margin: 20px;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.left h2{
+    font-size: 40px;
+}
+.left p{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.right{
+    width: 50%;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.4;   
+    padding-top: 40px;
+    padding-left: 40px;
+    position: relative;
+}
+.img{
+    width: 50%;
+    padding-top: 35px;
+    text-align: center;
+    margin-left: 50px;
+}
+img{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+button{
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+button a{
+    font-size: 25px;
+    color: blue;
+}
+/* page2 */
+#page2{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(138, 163, 207);
+}
+#page2 .right{
+    padding-top: 100px;
+}
+#page2 .right p{
+    margin-top: 10px;
+}
+#page2 .right span{
+    border-bottom: 2px solid black;
+}
+span{
+    padding-bottom: 3px;
+    border-bottom: 3px solid black;
+}
+/* page3 */
+#page3{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.project-heading{
+    text-align: center;
+    margin-top: 15px;
+}
+#page3 h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#page3 h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 800px) {
+    #p1-l{
+        height: 400px;
+        width: 100%;
+    }
+    #p2-l{
+        height: 400px;
+        width: 100%;
+    }
+    #p3-l{
+        height: 400px;
+        width: 100%;
+    }
+    #p1-r{
+        height: 400px;
+        width: 100%;
+    }
+    #p2-r{
+        height: 400px;
+        width: 100%;
+    }
+    #p3-r{
+        height: 400px;
+        width: 100%;
+    }
+}
